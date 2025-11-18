@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paquete-demo-cicd"
+version = "0.0.1"
+description = "Un paquete de ejemplo para tarea de CI/CD"
+authors = [{name = "Estudiante Demo", email = "demo@example.com"}]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
